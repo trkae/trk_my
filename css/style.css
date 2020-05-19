@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	text-align: center;
+	font-size: 20px;
+	font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+	margin: 40px;
+}
+
+main, header p{
+	max-width: 900px;
+	margin: 40px auto;
+}
+
+header img{
+	height: 50px;
+	margin: 0px;
+}
+
+header span{
+	text-transform: uppercase;
+	font-size: 33px;
+}
+
+header p{
+	font-size: 0.9em;
+}
+
+header span:after{
+	content: "";
+	border-top: 3px solid #000000;
+	display: block;
+	width: 15%;
+	margin: 15px auto;
+}
+
+div .blocs {
+	width: 30%;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+div .blocs img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover; 
+    border-radius: 50%;
+    padding: 3%;
+}
+
+
+div .blocs p {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+div .blocs a {
+	font-size: 20px;
+    text-transform: uppercase;
+}
+
+div .blocs span {
+	font-size: 0.8em;
+}
+
+div .blocs2 {
+	margin: 50px auto;
+}
+
+.soft {
+    display: block;
+    margin: 20px 0 0 560px;
+    text-align: start;
+    
+}
+
+.soft li {
+    list-style: symbols();    
+}
+
+.soft ul {
+    padding: 15px;
+}
+
+.glos {
+    text-align: start;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+.glos dl {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.glos dl > dt {
+    font-weight: normal;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.glos dd {
+    margin-bottom: 1rem;
+    margin-left: 10px;
+}
+
+.hrdw table{
+    border-collapse: separate;
+    border: 3px solid gray;   
+    margin: 20px auto;
+     
+}
+
+.hrdw th {
+    border: 1px solid grey;
+}
+
+.hrdw td {
+    border: 1px solid grey;
+}
